@@ -1,0 +1,306 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplicationCore", "WebApplicationCore\WebApplicationCore.csproj", "{79C4922D-C82F-4B66-9E6F-64B9D285B19A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectDependResolver", "ProjectDependResolver\ProjectDependResolver.csproj", "{DAE9C67E-F553-4A4F-93B9-3B76F909A65A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DependencyResolver", "DependencyResolver", "{EBD30C95-0A4B-41F1-B631-0DDEEBCF82CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repos.DomainModel.Interface", "Repos.DomainModel.Interface\Repos.DomainModel.Interface.csproj", "{C1C61D04-B218-4369-866A-94C7FEB3F362}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{0DAD89E8-F5CC-45A4-822E-720666BC92B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{19771E16-E3B7-4BA6-AD03-807B46B512C1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReposDomain", "ReposDomain\ReposDomain.csproj", "{CEB31F4D-2B2D-4620-B568-3F518E223651}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{36B9BE7D-DC1E-4604-95A9-B472EC3A7501}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReposCore", "ReposCore\ReposCore.csproj", "{ACD14962-20F7-45AA-9EA0-1FCE7301B1C7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReposData", "ReposData\ReposData.csproj", "{EEC64C55-0169-4AEB-9806-8303CA728002}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReposServiceConfigurations", "ReposServiceConfigurations\ReposServiceConfigurations.csproj", "{D8ADD8E5-F66C-4558-96E4-6648BFEE900F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServiceClasses", "ServiceClasses", "{DD04B570-8539-433E-AAE3-6B6C7FAC9637}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReposServices", "ReposServices\ReposServices.csproj", "{DDF88532-5588-49C9-B95D-483DCB3D914B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{C174E2BE-0EED-4BFE-90C0-B4B31D7149BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repos.Common", "Repos.Common\Repos.Common.csproj", "{8C1B16D0-B601-48F6-8B53-E2BA0D3DBB43}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReposDomain.Edits", "ReposDomain.Edits\ReposDomain.Edits.csproj", "{3773C22D-C1B3-42EB-B5F7-52E12DC40D8E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReposDomain.Handlers", "ReposDomain.Handlers\ReposDomain.Handlers.csproj", "{45C42DCE-5C3D-493A-9CF0-7FD52CE4A8A5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReposDomain.Rules", "ReposDomain.Rules\ReposDomain.Rules.csproj", "{E5D19A16-09E3-41BF-B1F4-D77574EDF352}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReposDomain.Filters", "ReposDomain.Filters\ReposDomain.Filters.csproj", "{7668CB7D-F317-43AE-A660-770C05AA7DF8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{74D68679-27F5-4251-96D1-C05290930256}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repos.Models", "Repos.Models\Repos.Models.csproj", "{1DBBBB9B-C13E-40A1-88F3-F208DBB4740D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{B8319BB4-DB22-409E-BEAA-AF7FD87938BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewOrder", "NewOrder", "{56809794-A1EB-4285-9CF9-7DD6528E7E4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewOrder.Handlers", "Client\NewOrder\NewOrder.Handler\NewOrder.Handlers.csproj", "{A726B0EF-F5FB-4374-81FE-624905E9C6EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewOrder.Edits", "Client\NewOrder\NewOrderEdits\NewOrder.Edits.csproj", "{419218ED-D706-40B0-87F0-28E8C7A85F79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewOrder.Filters", "Client\NewOrder\NewOrderFilters\NewOrder.Filters.csproj", "{3B2F69F4-D931-4765-8BED-6A40F9B62B5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewOrderValidations", "Client\NewOrder\NewOrderValidations\NewOrderValidations.csproj", "{B5E39055-83D9-4E83-8A3D-9B0AE42CFB5C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewOrder.Common", "Client\NewOrder\NewOrder.Common\NewOrder.Common.csproj", "{9D2D681B-840A-4768-9C35-1770675556DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebCoreApi", "WebCoreApi\WebCoreApi.csproj", "{B6063254-779C-45F2-80B9-9B48A9AB1E27}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewOrder.Rules", "NewOrder.Rules\NewOrder.Rules.csproj", "{965510AC-B47F-4935-9213-A1BE8D21777B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mapper", "Mapper", "{AAF97528-7088-4C74-9593-643A580BE566}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repos.Mapper", "Repos.Mapper\Repos.Mapper.csproj", "{CE0F36D3-3F72-4F8B-8289-54770382532D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{853128E4-763D-48C0-93B7-3A4DD57B95C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repo.UnitTest", "Test\Repo.UnitTest\Repo.UnitTest.csproj", "{EF3B8C2F-CE2C-4BEE-8F22-EE3B0BFA488A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79C4922D-C82F-4B66-9E6F-64B9D285B19A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79C4922D-C82F-4B66-9E6F-64B9D285B19A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79C4922D-C82F-4B66-9E6F-64B9D285B19A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79C4922D-C82F-4B66-9E6F-64B9D285B19A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAE9C67E-F553-4A4F-93B9-3B76F909A65A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAE9C67E-F553-4A4F-93B9-3B76F909A65A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAE9C67E-F553-4A4F-93B9-3B76F909A65A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAE9C67E-F553-4A4F-93B9-3B76F909A65A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1C61D04-B218-4369-866A-94C7FEB3F362}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1C61D04-B218-4369-866A-94C7FEB3F362}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1C61D04-B218-4369-866A-94C7FEB3F362}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1C61D04-B218-4369-866A-94C7FEB3F362}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEB31F4D-2B2D-4620-B568-3F518E223651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEB31F4D-2B2D-4620-B568-3F518E223651}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEB31F4D-2B2D-4620-B568-3F518E223651}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEB31F4D-2B2D-4620-B568-3F518E223651}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACD14962-20F7-45AA-9EA0-1FCE7301B1C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACD14962-20F7-45AA-9EA0-1FCE7301B1C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACD14962-20F7-45AA-9EA0-1FCE7301B1C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACD14962-20F7-45AA-9EA0-1FCE7301B1C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEC64C55-0169-4AEB-9806-8303CA728002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEC64C55-0169-4AEB-9806-8303CA728002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEC64C55-0169-4AEB-9806-8303CA728002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEC64C55-0169-4AEB-9806-8303CA728002}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8ADD8E5-F66C-4558-96E4-6648BFEE900F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8ADD8E5-F66C-4558-96E4-6648BFEE900F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8ADD8E5-F66C-4558-96E4-6648BFEE900F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8ADD8E5-F66C-4558-96E4-6648BFEE900F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDF88532-5588-49C9-B95D-483DCB3D914B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDF88532-5588-49C9-B95D-483DCB3D914B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDF88532-5588-49C9-B95D-483DCB3D914B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDF88532-5588-49C9-B95D-483DCB3D914B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C1B16D0-B601-48F6-8B53-E2BA0D3DBB43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C1B16D0-B601-48F6-8B53-E2BA0D3DBB43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C1B16D0-B601-48F6-8B53-E2BA0D3DBB43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C1B16D0-B601-48F6-8B53-E2BA0D3DBB43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3773C22D-C1B3-42EB-B5F7-52E12DC40D8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3773C22D-C1B3-42EB-B5F7-52E12DC40D8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3773C22D-C1B3-42EB-B5F7-52E12DC40D8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3773C22D-C1B3-42EB-B5F7-52E12DC40D8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45C42DCE-5C3D-493A-9CF0-7FD52CE4A8A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45C42DCE-5C3D-493A-9CF0-7FD52CE4A8A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45C42DCE-5C3D-493A-9CF0-7FD52CE4A8A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45C42DCE-5C3D-493A-9CF0-7FD52CE4A8A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5D19A16-09E3-41BF-B1F4-D77574EDF352}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5D19A16-09E3-41BF-B1F4-D77574EDF352}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5D19A16-09E3-41BF-B1F4-D77574EDF352}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5D19A16-09E3-41BF-B1F4-D77574EDF352}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7668CB7D-F317-43AE-A660-770C05AA7DF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7668CB7D-F317-43AE-A660-770C05AA7DF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7668CB7D-F317-43AE-A660-770C05AA7DF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7668CB7D-F317-43AE-A660-770C05AA7DF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DBBBB9B-C13E-40A1-88F3-F208DBB4740D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DBBBB9B-C13E-40A1-88F3-F208DBB4740D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DBBBB9B-C13E-40A1-88F3-F208DBB4740D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DBBBB9B-C13E-40A1-88F3-F208DBB4740D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A726B0EF-F5FB-4374-81FE-624905E9C6EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A726B0EF-F5FB-4374-81FE-624905E9C6EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A726B0EF-F5FB-4374-81FE-624905E9C6EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A726B0EF-F5FB-4374-81FE-624905E9C6EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{419218ED-D706-40B0-87F0-28E8C7A85F79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{419218ED-D706-40B0-87F0-28E8C7A85F79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{419218ED-D706-40B0-87F0-28E8C7A85F79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{419218ED-D706-40B0-87F0-28E8C7A85F79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B2F69F4-D931-4765-8BED-6A40F9B62B5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B2F69F4-D931-4765-8BED-6A40F9B62B5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B2F69F4-D931-4765-8BED-6A40F9B62B5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B2F69F4-D931-4765-8BED-6A40F9B62B5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5E39055-83D9-4E83-8A3D-9B0AE42CFB5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5E39055-83D9-4E83-8A3D-9B0AE42CFB5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5E39055-83D9-4E83-8A3D-9B0AE42CFB5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5E39055-83D9-4E83-8A3D-9B0AE42CFB5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D2D681B-840A-4768-9C35-1770675556DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D2D681B-840A-4768-9C35-1770675556DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D2D681B-840A-4768-9C35-1770675556DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D2D681B-840A-4768-9C35-1770675556DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6063254-779C-45F2-80B9-9B48A9AB1E27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6063254-779C-45F2-80B9-9B48A9AB1E27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6063254-779C-45F2-80B9-9B48A9AB1E27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6063254-779C-45F2-80B9-9B48A9AB1E27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{965510AC-B47F-4935-9213-A1BE8D21777B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{965510AC-B47F-4935-9213-A1BE8D21777B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{965510AC-B47F-4935-9213-A1BE8D21777B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{965510AC-B47F-4935-9213-A1BE8D21777B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE0F36D3-3F72-4F8B-8289-54770382532D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE0F36D3-3F72-4F8B-8289-54770382532D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE0F36D3-3F72-4F8B-8289-54770382532D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE0F36D3-3F72-4F8B-8289-54770382532D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF3B8C2F-CE2C-4BEE-8F22-EE3B0BFA488A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF3B8C2F-CE2C-4BEE-8F22-EE3B0BFA488A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF3B8C2F-CE2C-4BEE-8F22-EE3B0BFA488A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF3B8C2F-CE2C-4BEE-8F22-EE3B0BFA488A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DAE9C67E-F553-4A4F-93B9-3B76F909A65A} = {EBD30C95-0A4B-41F1-B631-0DDEEBCF82CC}
+		{C1C61D04-B218-4369-866A-94C7FEB3F362} = {0DAD89E8-F5CC-45A4-822E-720666BC92B3}
+		{CEB31F4D-2B2D-4620-B568-3F518E223651} = {19771E16-E3B7-4BA6-AD03-807B46B512C1}
+		{ACD14962-20F7-45AA-9EA0-1FCE7301B1C7} = {36B9BE7D-DC1E-4604-95A9-B472EC3A7501}
+		{EEC64C55-0169-4AEB-9806-8303CA728002} = {36B9BE7D-DC1E-4604-95A9-B472EC3A7501}
+		{D8ADD8E5-F66C-4558-96E4-6648BFEE900F} = {DD04B570-8539-433E-AAE3-6B6C7FAC9637}
+		{DDF88532-5588-49C9-B95D-483DCB3D914B} = {DD04B570-8539-433E-AAE3-6B6C7FAC9637}
+		{8C1B16D0-B601-48F6-8B53-E2BA0D3DBB43} = {C174E2BE-0EED-4BFE-90C0-B4B31D7149BF}
+		{3773C22D-C1B3-42EB-B5F7-52E12DC40D8E} = {DD04B570-8539-433E-AAE3-6B6C7FAC9637}
+		{45C42DCE-5C3D-493A-9CF0-7FD52CE4A8A5} = {DD04B570-8539-433E-AAE3-6B6C7FAC9637}
+		{E5D19A16-09E3-41BF-B1F4-D77574EDF352} = {DD04B570-8539-433E-AAE3-6B6C7FAC9637}
+		{7668CB7D-F317-43AE-A660-770C05AA7DF8} = {DD04B570-8539-433E-AAE3-6B6C7FAC9637}
+		{1DBBBB9B-C13E-40A1-88F3-F208DBB4740D} = {74D68679-27F5-4251-96D1-C05290930256}
+		{56809794-A1EB-4285-9CF9-7DD6528E7E4F} = {B8319BB4-DB22-409E-BEAA-AF7FD87938BF}
+		{A726B0EF-F5FB-4374-81FE-624905E9C6EC} = {56809794-A1EB-4285-9CF9-7DD6528E7E4F}
+		{419218ED-D706-40B0-87F0-28E8C7A85F79} = {56809794-A1EB-4285-9CF9-7DD6528E7E4F}
+		{3B2F69F4-D931-4765-8BED-6A40F9B62B5E} = {56809794-A1EB-4285-9CF9-7DD6528E7E4F}
+		{B5E39055-83D9-4E83-8A3D-9B0AE42CFB5C} = {56809794-A1EB-4285-9CF9-7DD6528E7E4F}
+		{9D2D681B-840A-4768-9C35-1770675556DA} = {56809794-A1EB-4285-9CF9-7DD6528E7E4F}
+		{965510AC-B47F-4935-9213-A1BE8D21777B} = {56809794-A1EB-4285-9CF9-7DD6528E7E4F}
+		{CE0F36D3-3F72-4F8B-8289-54770382532D} = {AAF97528-7088-4C74-9593-643A580BE566}
+		{EF3B8C2F-CE2C-4BEE-8F22-EE3B0BFA488A} = {853128E4-763D-48C0-93B7-3A4DD57B95C7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {63E719AA-E5C5-4952-8A6A-C4EBBE6A7FBF}
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 24
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://wardawg.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = WebApplicationCore\\WebApplicationCore.csproj
+		SccProjectName1 = WebApplicationCore
+		SccLocalPath1 = WebApplicationCore
+		SccProjectUniqueName2 = ProjectDependResolver\\ProjectDependResolver.csproj
+		SccProjectTopLevelParentUniqueName2 = CoreRepositoryPattern.sln
+		SccProjectName2 = ProjectDependResolver
+		SccLocalPath2 = ProjectDependResolver
+		SccProjectUniqueName3 = Repos.DomainModel.Interface\\Repos.DomainModel.Interface.csproj
+		SccProjectTopLevelParentUniqueName3 = CoreRepositoryPattern.sln
+		SccProjectName3 = Repos.DomainModel.Interface
+		SccLocalPath3 = Repos.DomainModel.Interface
+		SccProjectUniqueName4 = ReposDomain\\ReposDomain.csproj
+		SccProjectTopLevelParentUniqueName4 = CoreRepositoryPattern.sln
+		SccProjectName4 = ReposDomain
+		SccLocalPath4 = ReposDomain
+		SccProjectUniqueName5 = ReposCore\\ReposCore.csproj
+		SccProjectTopLevelParentUniqueName5 = CoreRepositoryPattern.sln
+		SccProjectName5 = ReposCore
+		SccLocalPath5 = ReposCore
+		SccProjectUniqueName6 = ReposData\\ReposData.csproj
+		SccProjectTopLevelParentUniqueName6 = CoreRepositoryPattern.sln
+		SccProjectName6 = ReposData
+		SccLocalPath6 = ReposData
+		SccProjectUniqueName7 = ReposServiceConfigurations\\ReposServiceConfigurations.csproj
+		SccProjectTopLevelParentUniqueName7 = CoreRepositoryPattern.sln
+		SccProjectName7 = ReposServiceConfigurations
+		SccLocalPath7 = ReposServiceConfigurations
+		SccProjectUniqueName8 = ReposServices\\ReposServices.csproj
+		SccProjectTopLevelParentUniqueName8 = CoreRepositoryPattern.sln
+		SccProjectName8 = ReposServices
+		SccLocalPath8 = ReposServices
+		SccProjectUniqueName9 = Repos.Common\\Repos.Common.csproj
+		SccProjectTopLevelParentUniqueName9 = CoreRepositoryPattern.sln
+		SccProjectName9 = Repos.Common
+		SccLocalPath9 = Repos.Common
+		SccProjectUniqueName10 = ReposDomain.Edits\\ReposDomain.Edits.csproj
+		SccProjectTopLevelParentUniqueName10 = CoreRepositoryPattern.sln
+		SccProjectName10 = ReposDomain.Edits
+		SccLocalPath10 = ReposDomain.Edits
+		SccProjectUniqueName11 = ReposDomain.Handlers\\ReposDomain.Handlers.csproj
+		SccProjectTopLevelParentUniqueName11 = CoreRepositoryPattern.sln
+		SccProjectName11 = ReposDomain.Handlers
+		SccLocalPath11 = ReposDomain.Handlers
+		SccProjectUniqueName12 = ReposDomain.Rules\\ReposDomain.Rules.csproj
+		SccProjectTopLevelParentUniqueName12 = CoreRepositoryPattern.sln
+		SccProjectName12 = ReposDomain.Rules
+		SccLocalPath12 = ReposDomain.Rules
+		SccProjectUniqueName13 = ReposDomain.Filters\\ReposDomain.Filters.csproj
+		SccProjectTopLevelParentUniqueName13 = CoreRepositoryPattern.sln
+		SccProjectName13 = ReposDomain.Filters
+		SccLocalPath13 = ReposDomain.Filters
+		SccProjectUniqueName14 = Repos.Models\\Repos.Models.csproj
+		SccProjectTopLevelParentUniqueName14 = CoreRepositoryPattern.sln
+		SccProjectName14 = Repos.Models
+		SccLocalPath14 = Repos.Models
+		SccProjectUniqueName15 = Client\\NewOrder\\NewOrder.Handler\\NewOrder.Handlers.csproj
+		SccProjectTopLevelParentUniqueName15 = CoreRepositoryPattern.sln
+		SccProjectName15 = Client/NewOrder/NewOrder.Handler
+		SccLocalPath15 = Client\\NewOrder\\NewOrder.Handler
+		SccProjectUniqueName16 = Client\\NewOrder\\NewOrderEdits\\NewOrder.Edits.csproj
+		SccProjectTopLevelParentUniqueName16 = CoreRepositoryPattern.sln
+		SccProjectName16 = Client/NewOrder/NewOrderEdits
+		SccLocalPath16 = Client\\NewOrder\\NewOrderEdits
+		SccProjectUniqueName17 = Client\\NewOrder\\NewOrderFilters\\NewOrder.Filters.csproj
+		SccProjectTopLevelParentUniqueName17 = CoreRepositoryPattern.sln
+		SccProjectName17 = Client/NewOrder/NewOrderFilters
+		SccLocalPath17 = Client\\NewOrder\\NewOrderFilters
+		SccProjectUniqueName18 = Client\\NewOrder\\NewOrderValidations\\NewOrderValidations.csproj
+		SccProjectTopLevelParentUniqueName18 = CoreRepositoryPattern.sln
+		SccProjectName18 = Client/NewOrder/NewOrderValidations
+		SccLocalPath18 = Client\\NewOrder\\NewOrderValidations
+		SccProjectUniqueName19 = Client\\NewOrder\\NewOrder.Common\\NewOrder.Common.csproj
+		SccProjectTopLevelParentUniqueName19 = CoreRepositoryPattern.sln
+		SccProjectName19 = Client/NewOrder/NewOrder.Common
+		SccLocalPath19 = Client\\NewOrder\\NewOrder.Common
+		SccProjectUniqueName20 = WebCoreApi\\WebCoreApi.csproj
+		SccProjectName20 = WebCoreApi
+		SccLocalPath20 = WebCoreApi
+		SccProjectUniqueName21 = NewOrder.Rules\\NewOrder.Rules.csproj
+		SccProjectTopLevelParentUniqueName21 = CoreRepositoryPattern.sln
+		SccProjectName21 = NewOrder.Rules
+		SccLocalPath21 = NewOrder.Rules
+		SccProjectUniqueName22 = Repos.Mapper\\Repos.Mapper.csproj
+		SccProjectTopLevelParentUniqueName22 = CoreRepositoryPattern.sln
+		SccProjectName22 = Repos.Mapper
+		SccLocalPath22 = Repos.Mapper
+		SccProjectUniqueName23 = Test\\Repo.UnitTest\\Repo.UnitTest.csproj
+		SccProjectTopLevelParentUniqueName23 = CoreRepositoryPattern.sln
+		SccProjectName23 = Test/Repo.UnitTest
+		SccLocalPath23 = Test\\Repo.UnitTest
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+EndGlobal

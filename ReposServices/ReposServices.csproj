@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Extensions\ServiceExtension.cs" />
+    <Compile Remove="Extensions\ServiceExtensions.cs" />
+    <Compile Remove="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="app.config" />
+    <None Remove="packages.config" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.0.1" />
+    <PackageReference Include="EntityFramework" Version="6.1.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProjectDependResolver\ProjectDependResolver.csproj" />
+    <ProjectReference Include="..\Repos.DomainModel.Interface\Repos.DomainModel.Interface.csproj" />
+    <ProjectReference Include="..\ReposCore\ReposCore.csproj" />
+    <ProjectReference Include="..\ReposData\ReposData.csproj" />
+    <ProjectReference Include="..\ReposDomain.Rules\ReposDomain.Rules.csproj" />
+    <ProjectReference Include="..\ReposDomain\ReposDomain.csproj" />
+    <ProjectReference Include="..\ReposServiceConfigurations\ReposServiceConfigurations.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Extensions\" />
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="dummy\**" />
+    <Compile Remove="Rules\ClientEntitiesRules\**" />
+    <EmbeddedResource Remove="dummy\**" />
+    <EmbeddedResource Remove="Rules\ClientEntitiesRules\**" />
+    <None Remove="dummy\**" />
+    <None Remove="Rules\ClientEntitiesRules\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Edits\SubCategories\SubCategoryClassItemEdits.cs" />
+    <Compile Remove="Edits\SubCategories\SubCategoryItemEdits.cs" />
+    <Compile Remove="Edits\SubCategories\SubCategoryTypeEdits.cs" />
+    <Compile Remove="Rules\SubCategoryEntitesRules\SubCategoryClassItemRules.cs" />
+    <Compile Remove="Rules\SubCategoryEntitesRules\SubCategoryItemRules.cs" />
+    <Compile Remove="Rules\SubCategoryEntitesRules\SubCategoryTypeRules.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.0.1" />
+    <PackageReference Include="EntityFramework" Version="6.1.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProjectDependResolver\ProjectDependResolver.csproj" />
+    <ProjectReference Include="..\Repos.DomainModel.Interface\Repos.DomainModel.Interface.csproj" />
+    <ProjectReference Include="..\Repos.Models\Repos.Models.csproj" />
+    <ProjectReference Include="..\ReposCore\ReposCore.csproj" />
+    <ProjectReference Include="..\ReposData\ReposData.csproj" />
+    <ProjectReference Include="..\ReposDomain.Edits\ReposDomain.Edits.csproj" />
+    <ProjectReference Include="..\ReposDomain.Filters\ReposDomain.Filters.csproj" />
+    <ProjectReference Include="..\ReposDomain.Handlers\ReposDomain.Handlers.csproj" />
+    <ProjectReference Include="..\ReposDomain.Rules\ReposDomain.Rules.csproj" />
+    <ProjectReference Include="..\ReposDomain\ReposDomain.csproj" />
+    <ProjectReference Include="..\ReposServiceConfigurations\ReposServiceConfigurations.csproj" />
+  </ItemGroup>
+
+</Project>

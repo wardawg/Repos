@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="SubCategories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Repos.DomainModel.Interface\Repos.DomainModel.Interface.csproj" />
+    <ProjectReference Include="..\ReposDomain\ReposDomain.csproj" />
+  </ItemGroup>
+
+</Project>

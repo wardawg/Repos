@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="DomainRules\" />
+    <Folder Include="DomainRules\SubCategoryEntitesRules\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Client\NewOrder\NewOrder.Common\NewOrder.Common.csproj" />
+    <ProjectReference Include="..\ProjectDependResolver\ProjectDependResolver.csproj" />
+    <ProjectReference Include="..\Repos.DomainModel.Interface\Repos.DomainModel.Interface.csproj" />
+    <ProjectReference Include="..\Repos.Models\Repos.Models.csproj" />
+    <ProjectReference Include="..\ReposDomain.Handlers\ReposDomain.Handlers.csproj" />
+    <ProjectReference Include="..\ReposDomain.Rules\ReposDomain.Rules.csproj" />
+    <ProjectReference Include="..\ReposServiceConfigurations\ReposServiceConfigurations.csproj" />
+  </ItemGroup>
+
+</Project>

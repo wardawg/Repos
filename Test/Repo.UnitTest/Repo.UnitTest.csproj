@@ -1,0 +1,66 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ValidationDependencyRegistrar.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.0.1" />
+    <PackageReference Include="Microsoft.AspNet.WebApi" Version="5.2.7" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.0.0-preview-20181205-02" />
+    <PackageReference Include="Moq" Version="4.13.1" />
+    <PackageReference Include="MSTest.TestAdapter" Version="1.4.0" />
+    <PackageReference Include="MSTest.TestFramework" Version="1.4.0" />
+    <PackageReference Include="NUnit" Version="3.12.0" />
+    <PackageReference Include="NWebsec.AspNetCore.Core" Version="2.0.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="3.14.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Context\" />
+    <Folder Include="Entities\" />
+    <Folder Include="Factories\" />
+    <Folder Include="Filters\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="Edits\" />
+    <Folder Include="Rules\" />
+    <Folder Include="ViewModels\" />
+    <Folder Include="TestData\Utilities\" />
+    <Folder Include="Utilities\" />
+    <Folder Include="Services\Handlers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\NewOrder.Rules\NewOrder.Rules.csproj" />
+    <ProjectReference Include="..\..\ProjectDependResolver\ProjectDependResolver.csproj" />
+    <ProjectReference Include="..\..\Repos.Common\Repos.Common.csproj" />
+    <ProjectReference Include="..\..\Repos.DomainModel.Interface\Repos.DomainModel.Interface.csproj" />
+    <ProjectReference Include="..\..\Repos.Models\Repos.Models.csproj" />
+    <ProjectReference Include="..\..\ReposCore\ReposCore.csproj" />
+    <ProjectReference Include="..\..\ReposData\ReposData.csproj" />
+    <ProjectReference Include="..\..\ReposDomain.Edits\ReposDomain.Edits.csproj" />
+    <ProjectReference Include="..\..\ReposDomain.Filters\ReposDomain.Filters.csproj" />
+    <ProjectReference Include="..\..\ReposDomain.Handlers\ReposDomain.Handlers.csproj" />
+    <ProjectReference Include="..\..\ReposDomain.Rules\ReposDomain.Rules.csproj" />
+    <ProjectReference Include="..\..\ReposDomain\ReposDomain.csproj" />
+    <ProjectReference Include="..\..\ReposServiceConfigurations\ReposServiceConfigurations.csproj" />
+    <ProjectReference Include="..\..\ReposServices\ReposServices.csproj" />
+    <ProjectReference Include="..\..\WebApplicationCore\WebApplicationCore.csproj" />
+  </ItemGroup>
+
+</Project>
